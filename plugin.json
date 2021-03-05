@@ -1,0 +1,12 @@
+{
+      "name":"PluginEventsDemo",
+      "description":"This is a sample of events caught by plugin",
+      "namespace":"PluginEventsDemo",
+      "author":"plentysystems AG",
+      "type":"template",
+      "serviceProvider":"PluginEventsDemo\\Providers\\PluginEventsDemoServiceProvider",
+
+      "runOnBuild"        :[
+            "PluginEventsDemo\\Migrations\\CreateLogTable"
+      ]
+}
